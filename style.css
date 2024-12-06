@@ -116,7 +116,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: "Merienda", cursive;
+    font-family: "Merienda", serif;
     padding: 50px;
     font-size: larger;
 
@@ -199,7 +199,7 @@ body{
     gap: 20px;                   
 }
 
-.block33 img {
+.block33 img { 
     width: 150px;                
     height: 110px;   
     margin-top: 95px;             
@@ -212,11 +212,10 @@ body{
     }
 .titles {
         font-size: 24px;
-        color: #333;
+        color: white;
         font-family: 'Arial', sans-serif;
         text-decoration: underline;
-        text-decoration-color: #ff6347; /* Couleur du soulignement */
-        text-decoration-thickness: 2px; /* Épaisseur du soulignement */
+       
     }    
 
 .GranPara{
@@ -412,19 +411,25 @@ body{
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            width: 80%;
+
         }
         .block33 {
             flex-direction: column;
             margin-top: 15px;
             margin-bottom: 15px;
-            margin-left: 12px;
-            margin-right: 12px;
+           
         }
 
         .blockEnfantTwo{
             font-size: 15px;
-
-
+            align-items: center;
+        }
+        .petitParg{
+            width: 80%;
+        }
+        .petititre{
+            font-size: 12px;
         }
         .GranPara {
             flex-direction: column;
@@ -433,10 +438,9 @@ body{
         .title{
             font-size: 15px;
         }
-        .tiltes{
+        .titles{
             font-size: 15px;
-
-        }
+         }
         .contact-form-container {
             font-size: 5px;
 
@@ -444,8 +448,8 @@ body{
        
         .flower-card{
             margin-top: 20px;
-            right: 15px;
-            left: 15px;
+            width: 80%;
+
 
         }
     }
